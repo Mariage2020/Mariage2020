@@ -225,15 +225,15 @@ color: #042;
 }
 
 .hero--slide1 {
-	background-image: url('../img/Entete1.jpg'); /* Change to your image here */
+	background-image: url('../img/header1.jpg'); /* Change to your image here */
 }
 
 .hero--slide2 {
-	background-image: url('../img/Desert.jpg'); /* Change to your image here */
+	background-image: url('../img/header2.jpg'); /* Change to your image here */
 }
 
 .hero--slide3 {
-	background-image: url('../img/Entete3.jpg'); /* Change to your image here */
+	background-image: url('../img/header3.jpg'); /* Change to your image here */
 }
 
 .hero--small {
