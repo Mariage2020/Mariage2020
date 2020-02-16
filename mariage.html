@@ -84,73 +84,79 @@
 	</div>
 	<!--== End of mobile navigation ==-->
 	
-	<!--=== Intro: About bride & groom. Counter. ===-->
-	<div class="intro" id="intro">
+	<!--=== Intro: About bride & groom. Counter. ===
+	<div class="" id="intro">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2 class="u-m-b-5 text-center u-font-script">Site en construction ! </h2>
+					<h3 class=" text-center u-font-script">Cérémonie de mariage à 15:00</h3>
 				</div>
 			</div>
 		</div>
-	</div>
-
-	<!--=== Memories ===
-	<section class="memories">
+	</div> -->
+	
+	
+	<!--=== Out story timeline === -->
+	<section class="story" id="story">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12">
-					<div class="text-center u-m-t-n-3">
-						<ion-icon name="heart" class="icon icon--sm icon--primary animation-pulse"></ion-icon>
-						<ion-icon name="heart" class="icon icon--md icon--primary animation-pulse"></ion-icon>
-					</div>
+				<div class="col-lg-10 offset-lg-1">
+					<div class="story-timeline d-md-flex">
+						<!-- Second and third text block should be written twice because of the different flow on desktop and mobile devices. Desktop uses two column layout, while mobile uses one column.
+						-->
+						<!-- Story timeline: left column  -->
+						<div class="story-timeline__col story-timeline__col--left">
+							<div class="story-timeline__text d-none d-md-block" data-aos="zoom-in-right">
+							<p class="u-font-script" >Cérémonie de mariage - 15h00</p>
+								<h4><ion-icon name="heart" class="icon icon--sm icon--primary u-bg-white d-none d-md-block"></ion-icon>Eglise Saint-Pierre d'Avits</h4>
+								<p>La célébration du mariage aura lieu à 15h00 en l'église Saint-Pierre d'Avits située aux portes de Castres.<br><br> Cortège à <b>16h30</b> <br><br> Le cortège vous conduira ensuite vers le lieu de réception.</p>
+								<br><br><br>
+								<img src="assets/img/mariage/soiree.png"  alt="Six happy years" data-aos="zoom-in-right"/>
+							</div>
+							<!-- Only visible on mobile devices -->
+							<div class="story-timeline__text d-md-none" data-aos="zoom-in-right">
+							<p class=" text-center u-font-script" >Cérémonie de mariage - 15h00</p>
+								<img src="assets/img/mariage/ceremonie.png"  alt="Six happy years" data-aos="zoom-in-right"/>
+								<h4><ion-icon name="heart" class="icon icon--sm icon--primary u-bg-white d-none d-md-block"></ion-icon>Eglise Saint-Pierre d'Avits</h4>
+								<p>La célébration du mariage aura lieu à 15h00 en l'église Saint-Pierre d'Avits située aux portes de Castres.<br><br> Cortège à <b>16h30</b> <br><br> Le cortège vous conduira ensuite vers le lieu de réception.</p>
+							</div>
+							<!-- Only visible on desktop devices
+							<div class="story-timeline__text d-none d-md-block" data-aos="zoom-in-right">
+								<h4><ion-icon name="heart" class="icon icon--sm icon--primary u-bg-white d-none d-md-block"></ion-icon>She said yes!</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+							</div> -->
+						</div>
 
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-12">
-					<div class=" grid">
-						<div class="grid-sizer"></div>
-						<div class="gutter-sizer"></div>
-						<div class="grid-item">
-							<img src="assets/img/memories/memory1.jpg" class="memories__img" alt="memory1"/>
-						</div>
-						<div class="grid-item">
-							<img src="assets/img/memories/memory2.jpg" class="memories__img" alt="memory2"/>
-						</div>
-						<div class="grid-item">
-							<img src="assets/img/memories/memory3.jpg" class="memories__img" alt="memory3"/>
-						</div>
-						<div class="grid-item">
-							<img src="assets/img/memories/memory4.jpg" class="memories__img" alt="memory4"/>
-						</div>
-						<div class="grid-item">
-							<img src="assets/img/memories/memory5.jpg" class="memories__img" alt="memory5"/>
-						</div>
-						<div class="grid-item">
-							<img src="assets/img/memories/memory6.jpg" class="memories__img" alt="memory6"/>
-						</div>
-						<div class="grid-item">
-							<img src="assets/img/memories/memory7.jpg" class="memories__img" alt="memory7"/>
-						</div>
-						<div class="grid-item">
-							<img src="assets/img/memories/memory8.jpg" class="memories__img" alt="memory8"/>
-						</div>
-						<div class="grid-item">
-							<img src="assets/img/memories/memory9.jpg" class="memories__img" alt="memory9"/>
-						</div>
-						<div class="grid-item">
-							<img src="assets/img/memories/memory10.jpg" class="memories__img" alt="memory10"/>
-						</div>
-						<div class="grid-item">
-							<img src="assets/img/memories/memory11.jpg" class="memories__img" alt="memory11"/>
+						<!-- Story timeline: right column -->
+						<div class="story-timeline__col story-timeline__col--right">
+							<!-- Only visible on desktop devices -->
+							<div class="story-timeline__text d-none d-md-block" data-aos="zoom-in-left">
+								<img src="assets/img/mariage/ceremonie.png" alt="First time we met" data-aos="zoom-in-left" />
+								<br><br><br><br><br><br>
+								<p class="u-font-script">Réception - 17h00</p>
+								<h4>Domaine des Arches de la Jinolié<ion-icon name="heart" class="icon icon--sm icon--primary u-bg-white d-none d-md-block"></ion-icon></h4>
+								<p>Vous êtes attendu à partir de 17h00 au domaine des Arches de la Jinolié pour un moment de détente suivi d'un coktail à 18h00. <br><br> Suite de la soirée à <b>19h40</b></p>
+							</div>
+							<!-- Only visible on mobile devices -->
+							<div class="story-timeline__text d-md-none" data-aos="zoom-in-left">
+								<img src="assets/img/mariage/soiree.png" alt="First time we met" data-aos="zoom-in-left" />
+								<p class="text-center u-font-script">Réception - 17h00</p>
+								<h4>Domaine des Arches de la Jinolié<ion-icon name="heart" class="icon icon--sm icon--primary u-bg-white d-none d-md-block"></ion-icon></h4>
+								<p>Vous êtes attendu à partir de 17h00 au domaine des Arches de la Jinolié pour un moment de détente suivi d'un coktail à 18h00. <br><br> Suite de la soirée à <b>19h40</b></p>
+							</div>
+							<!-- Only visible on desktop devices
+							<img src="assets/img/timeline3.jpg" alt="She said yes" data-aos="zoom-in-left" />
+							<div class="story-timeline__text" data-aos="zoom-in-left">
+							<h4><ion-icon name="heart" class="icon icon--sm icon--primary u-bg-white d-none d-md-block"></ion-icon>She said yes!</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+							</div> -->
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!--== End of memories ==-->
+	<!--== End of our story timeline. ==-->
 
 	<!--=== Footer ===
 	<footer class="footer u-bg-grey">
