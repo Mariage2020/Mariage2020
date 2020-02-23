@@ -84,7 +84,7 @@
 	</div>
 	<!--== End of mobile navigation ==-->
 	
-	<!--=== Intro: About bride & groom. Counter. ===-->
+	<!--=== Intro: About bride & groom. Counter. ===
 	<div class="intro" id="intro">
 		<div class="container">
 			<div class="row">
@@ -93,78 +93,84 @@
 				</div>
 			</div>
 		</div>
-	</div>
-
-	<!--=== RSVP form ===
-	<section class="rsvp rsvp--solid u-bg-white" id="rsvp">
+	</div> -->
+	
+	<!--=== Out story timeline === -->
+	<section class="story" id="story">
 		<div class="container">
 			<div class="row">
-				<div class="col-xl-10 offset-xl-1">
-					<div class="rsvp-box u-bg-white">
-						<div class="js-form-wrapper">
-							<div class="text-center">
-								<ion-icon name="heart" class="icon icon--sm icon--primary animation-pulse"></ion-icon>
-								<p class="rsvp-box__subtitle">Please confirm your arrival by <mark class="font-weight-bold">February 14, 2019</mark></p>
+				<div class="col-lg-10 offset-lg-1">
+					<div class="story-timeline d-md-flex">
+						<!-- Second and third text block should be written twice because of the different flow on desktop and mobile devices. Desktop uses two column layout, while mobile uses one column.
+						-->
+						<!-- Story timeline: left column  -->
+						<div class="story-timeline__col story-timeline__col--left">
+							<div class="story-timeline__text d-none d-md-block" data-aos="zoom-in-right">
+								<img src="assets/img/contactbis.jpg" data-aos="zoom-in-right"/>
+								<br><br>
+								<h4 class="text-right"><ion-icon name="heart" class="icon icon--sm icon--primary u-bg-white d-none d-md-block"></ion-icon>Accès</h4>
+								<p>- Eglise Saint-Pierre d'Avits <a href="https://goo.gl/maps/RNtc2vYCrKNrxFiC9" ><ion-icon name="pin" class="md-pin"></ion-icon></a></p>
+								<p>- Domaines des Arches de la Jinolié <a href="https://goo.gl/maps/o6XEUcsRJubj749C9" ><ion-icon name="pin" class="md-pin"></ion-icon></a></p>
 							</div>
-							<form method="POST" class="rsvp-form rsvp-form--v2 js-form" id="rsvp-form" action="http://themediv.com/lamore-preview/lamore/lamore-multipage-slider/php/rsvp.php">
-								<div class="d-md-flex justify-content-between">
-									<div class="rsvp-form__left">
-										<div class="rsvp-form-field">
-											<input type="text" name="fullname" placeholder="Full Name" required>
-										</div>
-										<div class="rsvp-form-field">
-											<input type="email" name="email" placeholder="Your E-mail" class="js-email" required>
-											<p class="rsvp-form-field__error js-email-error">E-mail is incorrect.</p>
-										</div>
-										<div class="rsvp-form-field">
-											<input type="number" name="guests" placeholder="Number of guests" required>
-										</div>
-										<div class="rsvp-form-field">
-											<select name="attending" required>
-												<option value="" disabled selected>You are attending?</option>
-												<option value="all">All</option>
-												<option value="ceremony">Ceremony</option>
-												<option value="party">Dinner & Party</option>
-											</select>
-										</div>
-									</div>
-									<div class="rsvp-form__right">
-										<div class="rsvp-form-field h-100">
-											<textarea rows="4" placeholder="Your Message" class="h-100" name="message"></textarea>
-										</div>
-									</div>
-								</div>
-								<button type="submit" class="rsvp-form-submit position-relative js-submit">
-									<ion-icon name="heart" class="icon icon--sm icon--white animation-pulse"></ion-icon>
-									<span>Send</span>
-									<ion-icon name="heart" class="icon icon--md icon--white animation-pulse"></ion-icon>
-								</button>
-							</form>
+							<!-- Only visible on mobile devices -->
+							<div class="story-timeline__text d-md-none" data-aos="zoom-in-right">
+								<h2 class="text-center u-font-script"> Contact</h2>
+								<img src="assets/img/contactbis.jpg" data-aos="zoom-in-right"/>
+								<br><br>
+								<p><b>Téléphone :</b> <br> Arielle : 06.61.31.60.90 / Adrien : 06.73.26.49.17</p>
+								<p><b>Adresse mail :</b> <br> mariage.arielle.adrien@gmail.com </p>
+							</div>
+							<!-- Only visible on desktop devices
+							<div class="story-timeline__text d-none d-md-block" data-aos="zoom-in-right">
+								<h4><ion-icon name="heart" class="icon icon--sm icon--primary u-bg-white d-none d-md-block"></ion-icon>She said yes!</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+							</div> -->
 						</div>
-						<!-- this message appears after rsvp-form is submitted correctly
-						<div class="rsvp-confirmation text-center js-form-confirmation">
-							<h4>We recieved your reservation.</h4>
-							<span class="u-font-script u-h3">thank you!</span>
-							<ion-icon name="heart" class="icon icon--md icon--primary"></ion-icon>
+
+						<!-- Story timeline: right column -->
+						<div class="story-timeline__col story-timeline__col--right">
+							<!-- Only visible on desktop devices -->
+							<div class="story-timeline__text d-none d-md-block" data-aos="zoom-in-left">
+								<h4><ion-icon name="heart" class="icon icon--sm icon--primary u-bg-white d-none d-md-block"></ion-icon>Contact</h4>
+								<p><b>Téléphone :</b> <br> Arielle : 06.61.31.60.90 / Adrien : 06.73.26.49.17</p>
+								<p><b>Adresse mail :</b> <br> mariage.arielle.adrien@gmail.com </p>
+								<img src="assets/img/contact2.png" data-aos="zoom-in-left" />
+							</div>
+							<!-- Only visible on mobile devices -->
+							<div class="story-timeline__text d-md-none" data-aos="zoom-in-left">
+								<h2 class="text-center u-font-script"> Accès</h2>
+								<img src="assets/img/contact2.png" data-aos="zoom-in-left" />
+								<br><br>
+								<p>- Eglise Saint-Pierre d'Avits <a href="https://goo.gl/maps/RNtc2vYCrKNrxFiC9" ><ion-icon name="pin" class="md-pin"></ion-icon></a></p>
+								<p>- Domaines des Arches de la Jinolié <a href="https://goo.gl/maps/o6XEUcsRJubj749C9" ><ion-icon name="pin" class="md-pin"></ion-icon></a></p>
+							</div>
+							<!-- Only visible on desktop devices
+							<img src="assets/img/timeline3.jpg" alt="She said yes" data-aos="zoom-in-left" />
+							<div class="story-timeline__text" data-aos="zoom-in-left">
+							<h4><ion-icon name="heart" class="icon icon--sm icon--primary u-bg-white d-none d-md-block"></ion-icon>She said yes!</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+							</div> -->
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!--== End of RSVP rsvp-form. ==-->
+	<!--== End of our story timeline. ==-->
+
 
 
 <!--===  SCRIPTS ===-->
 <script src="assets/js/vendors/jquery-3.3.1.min.js"></script>
 <script src="assets/js/vendors/bootstrap.min.js"></script>
 <script src="assets/js/vendors/jquery.countdown.min.js"></script>
-<script src="../../../../unpkg.com/imagesloaded%404.1.4/imagesloaded.pkgd.min.js"></script>
-<script src="../../../../unpkg.com/masonry-layout%404.2.2/dist/masonry.pkgd.min.js"></script>
 <script src="assets/js/vendors/slick.min.js"></script>
-<script src="../../../../unpkg.com/ionicons%404.4.2/dist/ionicons.js"></script>
-<script src="../../../../unpkg.com/aos%402.3.1/dist/aos.js"></script>
 <script src="assets/js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@ionic/core@4.6.2/dist/ionic/ionic.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core@4.6.2/dist/ionic/ionic.esm.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
 </body>
 </html>

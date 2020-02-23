@@ -1,5 +1,4 @@
 /*----------------------------------------------------
-	L'AMORE WEDDING TEMPLATE.
 
 	Author:			theme_div
 	Type:          	JS
@@ -68,16 +67,16 @@
 		]
 	});
 
-	/*==== 3. Animate on Scroll ====*/
+	/*==== 3. Animate on Scroll ====
 	AOS.init({
 		disable: false,
 		duration: 900, // values from 0 to 3000, with step 50ms
 		easing: 'ease', // default easing for AOS animations
 		once: true, // whether animation should happen only once - while scrolling down
-	});
+	});*/
 
 
-	/*==== 4. Masonry gallery ====*/
+	/*==== 4. Masonry gallery ====*
 	var $grid = $('.grid').masonry({
 		itemSelector: '.grid-item',
 		//columnWidth: '.grid-sizer',
@@ -87,7 +86,7 @@
 	// layout Masonry after each image loads
 	$grid.imagesLoaded().progress( function() {
 		$grid.masonry('layout');
-	});
+	});*/
 
 	/*==== 5. Mobile menu (open/close) ====*/
 	$(document).on('click', '.js-open-menu', function(e) {
