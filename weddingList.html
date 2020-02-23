@@ -59,9 +59,9 @@
 						<li><a href="mariage.html" class="nav-list__link">Ou & Quand</a></li>
 						<li><a href="location.html" class="nav-list__link">Logements</a></li>
 						<li><a href="photo.html" class="nav-list__link">Galerie</a></li>
-						<li><a href="weddingList.html" class="nav-list__link">Liste de Mariage</a></li>
+						<li><a href="weddingList.html" class="nav-list__link nav-list__link--active">Liste de Mariage</a></li>
 						<li><a href="contact.html" class="nav-list__link">Contact</a></li>
-						<li><a href="rsvp.html" class="nav-list__link nav-list__link--active">Réponse</a></li>
+						<li><a href="rsvp.html" class="nav-list__link">Réponse</a></li>
 					</ul>
 				</div>
 			</div>
@@ -79,9 +79,9 @@
 			<li><a href="mariage.html" class="mobile-nav-list__link">Ou & Quand</a></li>
 			<li><a href="location.html" class="mobile-nav-list__link">Logements</a></li>
 			<li><a href="photo.html" class="mobile-nav-list__link">Galerie</a></li>
-			<li><a href="weddingList.html" class="mobile-nav-list__link">Liste de Mariage</a></li>
+			<li><a href="weddingList.html" class="mobile-nav-list__link mobile-nav-list__link--active">Liste de Mariage</a></li>
 			<li><a href="contact.html" class="mobile-nav-list__link">Contact</a></li>
-			<li><a href="rsvp.html" class="mobile-nav-list__link mobile-nav-list__link--active">Réponse</a></li>
+			<li><a href="rsvp.html" class="mobile-nav-list__link">Réponse</a></li>
 		</ul>
 	</div>
 	<!--== End of mobile navigation ==-->
@@ -96,66 +96,6 @@
 			</div>
 		</div>
 	</div>
-
-	<!--=== RSVP form === 
-	<section class="rsvp rsvp--solid u-bg-white" id="rsvp">
-		<div class="container">
-			<div class="row">
-				<div class="col-xl-10 offset-xl-1">
-					<div class="rsvp-box u-bg-white">
-						<div class="js-form-wrapper">
-							<div class="text-center">
-								<ion-icon name="heart" class="icon icon--sm icon--primary animation-pulse"></ion-icon>
-								<p class="rsvp-box__subtitle">Veuillez confirmer votre venue pour le <mark class="font-weight-bold">30 Mai 2020</mark></p>
-							</div>
-							<form method="POST" class="rsvp-form rsvp-form--v2 js-form" id="rsvp-form" action="http://themediv.com/lamore-preview/lamore/lamore-multipage-slider/php/rsvp.php">
-								<div class="d-md-flex justify-content-between">
-									<div class="rsvp-form__left">
-										<div class="rsvp-form-field">
-											<input type="text" name="fullname" placeholder="Full Name" required>
-										</div>
-										<div class="rsvp-form-field">
-											<input type="email" name="email" placeholder="Your E-mail" class="js-email" required>
-											<p class="rsvp-form-field__error js-email-error">E-mail is incorrect.</p>
-										</div>
-										<div class="rsvp-form-field">
-											<input type="number" name="guests" placeholder="Number of guests" required>
-										</div>
-										<div class="rsvp-form-field">
-											<select name="attending" required>
-												<option value="" disabled selected>You are attending?</option>
-												<option value="all">All</option>
-												<option value="ceremony">Ceremony</option>
-												<option value="party">Dinner & Party</option>
-											</select>
-										</div>
-									</div>
-									<div class="rsvp-form__right">
-										<div class="rsvp-form-field h-100">
-											<textarea rows="4" placeholder="Your Message" class="h-100" name="message"></textarea>
-										</div>
-									</div>
-								</div>
-								<button type="submit" class="rsvp-form-submit position-relative js-submit">
-									<ion-icon name="heart" class="icon icon--sm icon--white animation-pulse"></ion-icon>
-									<span>Send</span>
-									<ion-icon name="heart" class="icon icon--md icon--white animation-pulse"></ion-icon>
-								</button>
-							</form>
-						</div>
-						<!-- this message appears after rsvp-form is submitted correctly
-						<div class="rsvp-confirmation text-center js-form-confirmation">
-							<h4>We recieved your reservation.</h4>
-							<span class="u-font-script u-h3">thank you!</span>
-							<ion-icon name="heart" class="icon icon--md icon--primary"></ion-icon>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--== End of RSVP rsvp-form. ==-->
-
 
 <!--===  SCRIPTS ===-->
 <script src="assets/js/vendors/jquery-3.3.1.min.js"></script>
