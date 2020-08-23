@@ -491,6 +491,13 @@ color: #042;
 	position: relative;
 }
 
+.story-timeline__end h4 {
+	font-style: initial;
+	font-weight: 600;
+	margin-bottom: 15px;
+	position: relative;
+}
+
 @media(min-width: 768px) {
 	.story-timeline {
 		padding: 100px 0;
